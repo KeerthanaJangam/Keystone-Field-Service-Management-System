@@ -85,7 +85,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
+                List.of("http://localhost:5173",
+                		"https://keystone-field-service-management-system-dfge.onrender.com/swagger-ui/index.html")
         );
 
         configuration.setAllowedMethods(
