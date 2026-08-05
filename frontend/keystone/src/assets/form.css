@@ -1,0 +1,121 @@
+.form-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:30px;
+
+}
+
+.form-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.form-label{
+
+    font-weight:600;
+
+    color:#374151;
+
+    margin-bottom:8px;
+
+}
+
+.form-control,
+.form-select{
+
+    border-radius:12px;
+
+    height:48px;
+
+    border:1px solid #D1D5DB;
+
+    transition:.25s;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#2563EB;
+
+    box-shadow:0 0 0 .2rem rgba(37,99,235,.15);
+
+}
+
+textarea.form-control{
+
+    min-height:120px;
+
+}
+
+.form-section{
+
+    margin-bottom:25px;
+
+}
+
+.form-footer{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:12px;
+
+    margin-top:30px;
+
+}
+
+.modal-content{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.modal-header{
+
+    background:#F9FAFB;
+
+    border-bottom:1px solid #E5E7EB;
+
+    padding:20px 25px;
+
+}
+
+.modal-body{
+
+    padding:30px;
+
+}
+
+.modal-title{
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.save-btn{
+
+    min-width:150px;
+
+}
+
+.cancel-btn{
+
+    min-width:120px;
+
+}

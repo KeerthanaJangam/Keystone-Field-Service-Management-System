@@ -1,0 +1,203 @@
+.hero-section{
+
+    min-height:85vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:70px;
+
+    background:linear-gradient(135deg,#ffffff,#eef5ff);
+
+}
+
+.hero-left{
+
+    width:48%;
+
+}
+
+.hero-left h1{
+
+    font-size:68px;
+
+    font-weight:800;
+
+    color:#0B1F4D;
+
+    line-height:1.2;
+
+}
+
+.hero-left h1 span{
+
+    color:#1D4ED8;
+
+}
+
+.hero-left p{
+
+    margin-top:25px;
+
+    font-size:22px;
+
+    color:#5B6475;
+
+    line-height:1.7;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:40px;
+
+}
+
+.primary-btn{
+
+    background:#1D4ED8;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:16px 32px;
+
+    font-size:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+}
+
+.secondary-btn{
+
+    background:white;
+
+    color:#1D4ED8;
+
+    border:2px solid #1D4ED8;
+
+    border-radius:10px;
+
+    padding:16px 32px;
+
+    font-size:18px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    cursor:pointer;
+
+}
+
+.hero-points{
+
+    display:flex;
+
+    gap:35px;
+
+    margin-top:45px;
+
+    font-weight:600;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-points span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:#0B1F4D;
+
+}
+
+.hero-right{
+
+    width:45%;
+
+    position:relative;
+
+}
+
+.hero-image{
+
+    width:100%;
+
+    border-radius:20px;
+
+}
+
+.floating-card{
+
+    position:absolute;
+
+    background:white;
+
+    padding:18px 22px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.floating-card svg{
+
+    color:#1D4ED8;
+
+    font-size:28px;
+
+}
+
+.card-top{
+
+    top:20px;
+
+    left:-40px;
+
+}
+
+.card-left{
+
+    bottom:60px;
+
+    left:-50px;
+
+}
+
+.card-right{
+
+    bottom:40px;
+
+    right:-30px;
+
+}

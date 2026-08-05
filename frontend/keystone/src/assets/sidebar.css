@@ -1,0 +1,227 @@
+.sidebar{
+    width:280px;
+    height:100vh;
+    background:#111827;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    position:fixed;
+    left:0;
+    top:0;
+}
+
+.sidebar-logo{
+
+    padding:28px 24px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logo h3{
+
+    margin:0;
+
+    font-size:26px;
+
+    font-weight:700;
+
+}
+
+.sidebar-logo p{
+
+    margin:4px 0 0;
+
+    font-size:13px;
+
+    color:#9CA3AF;
+
+}
+
+.sidebar-menu{
+
+    padding:20px 12px;
+
+    flex:1;
+
+}
+
+.sidebar-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:#E5E7EB;
+
+    text-decoration:none;
+
+    padding:14px 18px;
+
+    margin-bottom:10px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+    padding:15px 18px;
+
+    font-size:16px;
+
+}
+
+.sidebar-link:hover{
+
+    background:#2563EB;
+
+    transform:translateX(6px);
+
+    box-shadow:0 8px 20px rgba(37,99,235,.25);
+
+    transform:translateX(8px);
+
+}
+
+.sidebar-link.active{
+
+    background:#2563EB;
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.sidebar-footer{
+
+    margin-top:auto;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.user-name{
+
+    font-weight:600;
+
+}
+
+.user-role{
+
+    font-size:13px;
+
+    color:#9CA3AF;
+
+}
+.sidebar-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:30px 25px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.logo-circle{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.sidebar-logo h3{
+
+    margin:0;
+
+    font-size:24px;
+
+}
+
+.sidebar-logo p{
+
+    margin:0;
+
+    color:#9CA3AF;
+
+    font-size:13px;
+
+}
+.sidebar-footer{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+    padding:20px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+.profile-circle{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:700;
+
+}
+
+.sidebar-link svg{
+
+    font-size:20px;
+
+}

@@ -1,0 +1,120 @@
+:root {
+
+    --primary: #2563EB;
+
+    --primary-dark: #1D4ED8;
+
+    --success: #22C55E;
+
+    --warning: #F59E0B;
+
+    --danger: #EF4444;
+
+    --dark: #111827;
+
+    --light-bg: #F3F4F6;
+
+    --card-bg: #FFFFFF;
+
+    --border: #E5E7EB;
+
+    --text: #1F2937;
+
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: "Inter", sans-serif;
+
+    background: var(--light-bg);
+
+    color: var(--text);
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+button {
+
+    transition: .25s ease;
+
+}
+
+.card {
+
+    border: none;
+
+    border-radius: 16px;
+
+    box-shadow:
+
+        0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.table {
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+}
+
+.table thead {
+
+    background: var(--dark);
+
+    color: white;
+
+}
+
+.btn {
+
+    border-radius: 10px;
+
+    font-weight: 600;
+
+}
+
+.form-control,
+.form-select {
+
+    border-radius: 10px;
+
+}
+
+.modal-content {
+
+    border-radius: 18px;
+
+    border: none;
+
+}
+
+::-webkit-scrollbar {
+
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #CBD5E1;
+
+    border-radius: 10px;
+
+}

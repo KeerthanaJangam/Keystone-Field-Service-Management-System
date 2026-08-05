@@ -1,0 +1,66 @@
+.page-title{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.page-container{
+
+    padding:30px;
+
+}
+
+.section-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.search-box{
+
+    width:320px;
+
+}
+
+.action-btn{
+
+    min-width:95px;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+.badge{
+
+    padding:8px 12px;
+
+    border-radius:8px;
+
+}
+.btn{
+
+    transition:.25s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+
+}
