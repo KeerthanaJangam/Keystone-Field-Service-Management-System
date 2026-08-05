@@ -86,7 +86,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(
                 List.of("http://localhost:5173",
-                		"https://keystone-field-service-management-system-dfge.onrender.com/swagger-ui/index.html")
+                		"https://keystone-field-service-management-system-vnd0.onrender.com")
         );
 
         configuration.setAllowedMethods(
